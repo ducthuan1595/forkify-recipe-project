@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "fracty": "^1.0.11"
+  }
+}
